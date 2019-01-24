@@ -1,10 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './Components/App';
+import indexRoutes from './routes/index';
 import {Route, Switch} from 'react-router-dom';
-import {BrowserRouter} from "react-router-dom/es/BrowserRouter";
-
+import BrowserRouter from "react-router-dom/es/BrowserRouter";
 ReactDOM.render(
     <BrowserRouter>
         <Switch>

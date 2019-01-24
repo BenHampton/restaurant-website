@@ -1,4 +1,4 @@
-import App from "../Components/App";
+import App from "../Components/HomePage/App";
 
 const dashboardRoutes = [
 
