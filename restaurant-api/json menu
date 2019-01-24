@@ -1,0 +1,371 @@
+//Salads
+[
+	{
+		"entreeType": "Salad",
+		"name": "Trattoria Salad",
+		"price": "5",
+		"quantity": "10",
+		"description": "Spring mix, red onions, tomatoes and mozzarella"
+	},
+	{
+		"entreeType": "Salad",
+		"name": "Caesar Salad",
+		"price": "5.00",
+		"quantity": "10",
+		"description": ""
+	},
+	{
+		"entreeType": "Salad",
+		"name": "Spinach Salad",
+		"price": "5.00",
+		"quantity": "10",
+		"description": ""
+	},
+	{
+		"entreeType": "Salad",
+		"name": "Caprese Salad",
+		"price": "5.00",
+		"quantity": "10",
+		"description": "Fresh mozzarella, tomatoes, anchovies and basil"
+	}
+]
+
+
+//App
+[
+	{
+		"entreeType": "Appetizers",
+		"name": "Toaster Ravioli",
+		"price": "9.00",
+		"quantity": "10",
+		"description": ""
+	},
+	{
+		"entreeType": "Appetizers",
+		"name": "Smoked Salmon",
+		"price": "11.99",
+		"quantity": "10",
+		"description": "Extra virgin olive oil, capers, and chopped red onion"
+	},
+	{
+		"entreeType": "Appetizers",
+		"name": "Calamari Rossi",
+		"price": "9.00",
+		"quantity": "10",
+		"description": "Calamari in a marinara sauce"
+	},
+	{
+		"entreeType": "Appetizers",
+		"name": "Calamari Fritti",
+		"price": "9.00",
+		"quantity": "10",
+		"description": "Fried Fritti "
+	},
+	{
+		"entreeType": "Appetizers",
+		"name": "Fried Artichoke",
+		"price": "9.00",
+		"quantity": "10",
+		"description": ""
+	},
+	{
+		"entreeType": "Appetizers",
+		"name": "Eggplant Parmigiana",
+		"price": "9.00",
+		"quantity": "10",
+		"description": ""
+	},
+	{
+		"entreeType": "Appetizers",
+		"name": "Shrimp and Artichoke (2pc)",
+		"price": "10.99",
+		"quantity": "10",
+		"description": "Artichoke with shrimp and spinach in a cream sauce "
+	},
+	{
+
+		"entreeType": "Appetizers",
+		"name": "Shrimp All' Italiana (3pc)",
+		"price": "11.99",
+		"quantity": "10",
+		"description": "Sautéed shrimp in mushrooms, with a white wine lemon sauce "
+	}
+]
+
+//chicken
+[
+	{
+		"entreeType": "Chicken",
+		"name": "Chicken Al Vino Bianco",
+		"price": "19.99",
+		"quantity": "10",
+		"description": "White wine and mushrooms"
+	},
+	{
+		"entreeType": "Chicken",
+		"name": "Chicken Marsala",
+		"price": "20.99",
+		"quantity": "10",
+		"description": "Mushrooms, bell peppers, and fresh tomatoes in a marsala wine sauce"
+	},
+	{
+		"entreeType": "Chicken",
+		"name": "Chicken Alla Parmigiano",
+		"price": "20.99",
+		"quantity": "10",
+		"description": "Tomato sauce and cheese"
+	},
+	{
+		"entreeType": "Chicken",
+		"name": "Chicken Alla Romano",
+		"price": "21.99",
+		"quantity": "10",
+		"description": "Breaded and topped with prosciutto and cheese in a white wine sage sauce"
+	},
+	{
+		"entreeType": "Chicken",
+		"name": "Chicken Spedini",
+		"price": "21.99",
+		"quantity": "10",
+		"description": "Rolled and stuffed with prosciutto, onions, spinach, tomato and mozzarella cheese in a white wine mushroom sauce"
+	},
+	{
+		"entreeType": "Chicken",
+		"name": "Chicken alla Angelo",
+		"price": "21.99",
+		"quantity": "10",
+		"description": "Shitake mushrooms, sun dried tomato, prosciutto in a white wine cream sauce"
+	}
+]
+
+//Veal
+[
+	{
+		"entreeType": "Veal",
+		"name": "Veal Marsala",
+		"price": "24.99",
+		"quantity": "10",
+		"description": "Green peppers, mushrooms, fresh tomato and a touch of marinara in a marsala wine sauce"
+	},
+	{
+		"entreeType": "Veal",
+		"name": "Veal Al Limone",
+		"price": "24.99",
+		"quantity": "10",
+		"description": "Capers and mushrooms"
+	},
+	{
+		"entreeType": "Veal",
+		"name": "Veal Alla Creme",
+		"price": "24.99",
+		"quantity": "10",
+		"description": "Artichokes, wild mushrooms in a cream sauce with a touch of lemon"
+	},
+	{
+		"entreeType": "Veal",
+		"name": "Veal Saltimbocca",
+		"price": "24.99",
+		"quantity": "10",
+		"description": "Topped with prosciutto and cheese in a white wine sage sauce"
+	},
+	{
+		"entreeType": "Veal",
+		"name": "Veal Chop",
+		"price": "39.99",
+		"quantity": "10",
+		"description": "25 oz. chop served with porcini sauce"
+	},
+	{
+		"entreeType": "Veal",
+		"name": "Veal Milanese",
+		"price": "24.99",
+		"quantity": "10",
+		"description": "Pan fried with spinach"
+	}
+]
+
+//Seafood
+[
+	{
+		"entreeType": "Seafood",
+		"name": "Tilapia Fiorentina",
+		"price": "21.99",
+		"quantity": "10",
+		"description": "Butter, garlic, extra virgin olive oil and mushrooms over spinach"
+	},
+	{
+		"entreeType": "Seafood",
+		"name": "Salmon Alla Griglia",
+		"price": "22.99",
+		"quantity": "10",
+		"description": "Garlic, pimentos and shrimp in a cream sauce"
+	},
+	{
+		"entreeType": "Seafood",
+		"name": "Shrimp Scampi (5pc",
+		"price": "21.99",
+		"quantity": "10",
+		"description": "Jump Shrimp lightly breaded and grilled Lemon Garlic Sauce"
+	},
+	{
+		"entreeType": "Seafood",
+		"name": "Shrimp Fra Diavolo",
+		"price": "24.99",
+		"quantity": "10",
+		"description": "Spicy marinara sauce over green fettucini"
+	}
+]
+
+//Beef
+[
+	{
+		"entreeType": "Beef",
+		"name": "Beef Tenderloin Toscana",
+		"price": "31.99",
+		"quantity": "10",
+		"description": "Sautéed with garlic, shitake in a brandy with a touch of cream sauce"
+	},
+	{
+		"entreeType": "Beef Tenderloin Sicilian",
+		"name": "Beef Tenderloin Sicilian",
+		"price": "31.99",
+		"quantity": "10",
+		"description": "8 oz. medallions breaded and topped with mushrooms and mozzarella in a white wine sauce"
+	},
+	{
+		"entreeType": "Beef",
+		"name": "Filet Mignon",
+		"price": "39.99",
+		"quantity": "10",
+		"description": "10 oz. in a butter garlic sauce"
+	},
+	{
+		"entreeType": "Beef",
+		"name": "Strip Steak",
+		"price": "31.99",
+		"quantity": "10",
+		"description": "16 oz. in a shallot sauce"
+	}
+]
+
+//Pasta
+[
+	{
+		"entreeType": "Pasta",
+		"name": "Tortelloni Alla Boscaiola",
+		"price": "19.99",
+		"quantity": "10",
+		"description": "Ham, peas and mushrooms in a sherry cream sauce"
+	},
+	{
+		"entreeType": "Pasta",
+		"name": "Lobster Ravioli",
+		"price": "22.99",
+		"quantity": "10",
+		"description": "Fresh tomatoes, onion and artichoke in a brandy cream sauce"
+	},
+	{
+		"entreeType": "Pasta",
+		"name": "Cannelloni",
+		"price": "18.99",
+		"quantity": "10",
+		"description": ""
+	},
+	{
+		"entreeType": "Pasta",
+		"name": "Penne Alla Bolognese",
+		"price": "17.99",
+		"quantity": "10",
+		"description": ""
+	},
+	{
+		"entreeType": "Pasta",
+		"name": "Linguine Con Vongole",
+		"price": "19.99",
+		"quantity": "10",
+		"description": "(Clams) White wine, garlic, extra virgin olive oil"
+	},
+	{
+		"entreeType": "Pasta",
+		"name": "Linguine Tuttomare",
+		"price": "23.99",
+		"quantity": "10",
+		"description": "Fresh fish of the day, shrimp, mussels, clams, and calamari in a white wine, extra virgin olive oil, with a touch of tomato sauce"
+	},
+	{
+		"entreeType": "Pasta",
+		"name": "Risotto",
+		"price": "19.99",
+		"quantity": "10",
+		"description": "Porcini, wild mushrooms and saffron"
+	},
+	{
+		"entreeType": "Pasta",
+		"name": "Linguine Primavera",
+		"price": "19.99",
+		"quantity": "10",
+		"description": "Served with assorted fresh vegetables"
+	},
+	{
+		"entreeType": "Pasta",
+		"name": "Linguine alla Amy",
+		"price": "19.99",
+		"quantity": "10",
+		"description": "Beef tips, sun dried tomatoes, mushrooms, spinach, white wine sauce with a touch of marinara sauce"
+	},
+	{
+		"entreeType": "Pasta",
+		"name": "Spaghetti with Meatballs",
+		"price": "19.99",
+		"quantity": "10",
+		"description": "3 Meatballs"
+	}
+]
+
+//Sides
+[
+	{
+		"entreeType": "Side",
+		"name": "Spinach",
+		"price": "2.99",
+		"quantity": "10",
+		"description": ""
+	},
+	{
+		"entreeType": "Side",
+		"name": "Asparagus",
+		"price": "3.99",
+		"quantity": "10",
+		"description": ""
+	},
+	{
+		"entreeType": "Side",
+		"name": "",
+		"price": "2.99",
+		"quantity": "10",
+		"description": ""
+	},
+	{
+		"entreeType": "Side",
+		"name": "Cream Sauce - Pasta",
+		"price": "2.99",
+		"quantity": "10",
+		"description": ""
+	},
+	{
+		"entreeType": "Side",
+		"name": "Marinara  Sauce - Pasta",
+		"price": "2.99",
+		"quantity": "10",
+		"description": ""
+	},
+	{
+		"entreeType": "Side",
+		"name": "Oil, Budder & Garlic Sauce - Pasta",
+		"price": "2.99",
+		"quantity": "10",
+		"description": ""
+	}
+
+]
+
