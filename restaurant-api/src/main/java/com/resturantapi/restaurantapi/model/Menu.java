@@ -18,7 +18,7 @@ public class Menu {
     private List<Food> menuChickens = new ArrayList<>();
     private List<Food> menuAppetizers = new ArrayList<>();
     private List<Food> menuSides = new ArrayList<>();
-    private List<Food> menuSeafood = new ArrayList<>();
-    private List<Food> menuVeal = new ArrayList<>();
+    private List<Food> menuSeafoods = new ArrayList<>();
+    private List<Food> menuVeals = new ArrayList<>();
 
 }

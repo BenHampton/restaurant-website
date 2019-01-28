@@ -27,9 +27,9 @@ public class MenuService {
         menu.getMenuChickens().addAll(foods.stream().filter( food -> food.isChicken()).collect(Collectors.toList()));
         menu.getMenuPastas().addAll(foods.stream().filter( food -> food.isPasta()).collect(Collectors.toList()));
         menu.getMenuSalads().addAll(foods.stream().filter( food -> food.isSalad()).collect(Collectors.toList()));
-        menu.getMenuSeafood().addAll(foods.stream().filter( food -> food.isSeafood()).collect(Collectors.toList()));
+        menu.getMenuSeafoods().addAll(foods.stream().filter(food -> food.isSeafood()).collect(Collectors.toList()));
         menu.getMenuSides().addAll(foods.stream().filter( food -> food.isSide()).collect(Collectors.toList()));
-        menu.getMenuVeal().addAll(foods.stream().filter( food -> food.isVeal()).collect(Collectors.toList()));
+        menu.getMenuVeals().addAll(foods.stream().filter(food -> food.isVeal()).collect(Collectors.toList()));
         menu.getMenuBeefs().addAll(foods.stream().filter( food -> food.isBeef()).collect(Collectors.toList()));
 
         return menu;

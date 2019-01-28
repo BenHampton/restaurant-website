@@ -5,6 +5,13 @@ import Sidebar from "../../Components/Sidebar/Sidebar";
 
 import dashboardRoutes from "../../routes/dashboard.jsx";
 
+import '../../../node_modules/primeicons/fonts/primeicons.svg';
+import '../../../node_modules/primereact/resources/primereact.css';
+import '../../../node_modules/primeicons/primeicons.css';
+import '../../../node_modules/primeflex/primeflex.css';
+
+import '../../Components/Menu/css/menuView.css';
+
 class Dashboard extends Component{
     constructor(props){
         super(props);
@@ -13,11 +20,11 @@ class Dashboard extends Component{
 
     render(){
         return(
-            <div className="p-grid p-nogutter" style={{background: 'black'}}>
+            <div className="p-grid p-nogutter">
                 <div className={'p-col-12'} >
                     <Sidebar {...this.props}/>
                 </div>
-                <div className={'p-grid p-col-12 p-nogutter p-align-stretch vertical-container'} style={{background: 'black'}}>
+                <div className={'p-grid p-col-12 p-nogutter p-align-stretch vertical-container'}>
                     <div className={'p-col-12'}>
                         <Switch>
                             {dashboardRoutes.map((prop, key) => {

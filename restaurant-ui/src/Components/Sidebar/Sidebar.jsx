@@ -1,9 +1,8 @@
-import React, { Component } from "react";
-import { NavLink } from "react-router-dom";
+import React, {Component} from "react";
+import {NavLink} from "react-router-dom";
 import './css/sidebard.css';
 
 import dashboardRoutes from "../../routes/dashboard.jsx";
-import * as ReactDOM from "react-dom";
 
 class Sidebar extends Component {
   constructor(props) {
