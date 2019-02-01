@@ -10,7 +10,7 @@ import '../../../node_modules/primereact/resources/primereact.css';
 import '../../../node_modules/primeicons/primeicons.css';
 import '../../../node_modules/primeflex/primeflex.css';
 
-import '../../Components/Menu/css/menuView.css';
+import '../../Components/Restaurant/css/restaurantView.css';
 
 class Dashboard extends Component{
     constructor(props){

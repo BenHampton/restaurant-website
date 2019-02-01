@@ -1,5 +1,5 @@
 import App from "../Components/HomePage/App";
-import MenuComponent from "../Components/Menu/MenuComponent";
+import RestaurantComponent from "../Components/Restaurant/RestaurantComponent";
 
 const dashboardRoutes = [
 
@@ -13,7 +13,7 @@ const dashboardRoutes = [
         path: '/menu',
         name: 'Menu',
         hide: false,
-        component: MenuComponent
+        component: RestaurantComponent
     },
     { redirect: true,
       path: '/',

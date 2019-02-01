@@ -1,0 +1,13 @@
+.restaurant-container {
+    margin-top: 30%;
+    background: white;
+}
+
+.menu-selection-first {
+    text-align: center;
+}
+
+.menu-selection{
+    padding-top: 10%;
+    text-align: center;
+}
