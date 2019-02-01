@@ -21,7 +21,7 @@ public class MenuService {
 
         Menu menu = new Menu();
 
-        List<Food> foods = restaurantRepository.findAll();
+        List<Food> foods = generateDollarSignOnFoodPrice(restaurantRepository.findAll());
 
         menu.getMenuAppetizers().addAll(foods.stream().filter( food -> food.isAppetizer()).collect(Collectors.toList()));
         menu.getMenuChickens().addAll(foods.stream().filter( food -> food.isChicken()).collect(Collectors.toList()));
@@ -33,6 +33,15 @@ public class MenuService {
         menu.getMenuBeefs().addAll(foods.stream().filter( food -> food.isBeef()).collect(Collectors.toList()));
 
         return menu;
+    }
+
+    private List<Food> generateDollarSignOnFoodPrice(List<Food> foods){
+        foods.forEach( food -> {
+            if(!food.getPrice().startsWith("$")){
+                food.setPrice("$".concat(food.getPrice()));
+            }
+        });
+        return foods;
     }
 
     public void addFoodToMenu(List<Food> foods){

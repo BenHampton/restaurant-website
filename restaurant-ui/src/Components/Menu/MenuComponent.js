@@ -8,19 +8,17 @@ export default class MenuComponent extends Component{
         this.state = {
             food: this.props.food
         }
+        this.addToCart = this.addToCart.bind(this);
 
     }
 
     addToCart(){
-
+        console.log(this.state.food);
     }
 
     render(){
-        console.log(this.state.food)
         return(
-            <div>
-                <MenuView food={this.state.food}/>
-            </div>
-        )
+            <MenuView food={this.state.food} addToCart={this.addToCart}/>
+        );
     }
 }

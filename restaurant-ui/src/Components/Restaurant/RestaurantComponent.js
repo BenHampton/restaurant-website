@@ -35,7 +35,6 @@ export default class RestaurantComponent extends Component{
 
     render(){
         return(
-            <div>
                 <RestaurantView appetizers={this.state.appetizers}
                                 salads={this.state.salads}
                                 pastas={this.state.pastas}
@@ -44,7 +43,6 @@ export default class RestaurantComponent extends Component{
                                 chickens={this.state.chickens}
                                 seafoods={this.state.seafoods}
                                 sides={this.state.sides}/>
-            </div>
         );
     }
 }

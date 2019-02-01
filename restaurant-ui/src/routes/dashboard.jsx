@@ -6,7 +6,7 @@ const dashboardRoutes = [
     {
         path: '/home',
         name: 'Home',
-        hide: 'false',
+        hide: false,
         component: App
     },
     {

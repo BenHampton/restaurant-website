@@ -1,5 +1,6 @@
 import React from 'react';
 import MenuComponent from "../Menu/MenuComponent";
+import {RestaurantMenuHeader} from "./RestaurantMenuHeader";
 
 const RestaurantView = props => {
 
@@ -58,34 +59,42 @@ const RestaurantView = props => {
         <div className={'restaurant-container'}>
             <div className={'menu-selection-first'}>
                 <h1>Appetizers</h1>
+                <RestaurantMenuHeader />
                 {appetizerItems}
             </div>
             <div className={'menu-selection'}>
                 <h1>Salads</h1>
+                <RestaurantMenuHeader />
                 {saladItems}
             </div>
             <div className={'menu-selection'}>
                 <h1>Pastas</h1>
+                <RestaurantMenuHeader />
                 {pastaItems}
             </div>
             <div className={'menu-selection'}>
                 <h1>Veals</h1>
+                <RestaurantMenuHeader />
                 {vealItems}
             </div>
             <div className={'menu-selection'}>
                 <h1>Beef</h1>
+                <RestaurantMenuHeader />
                 {beefItems}
             </div>
             <div className={'menu-selection'}>
                 <h1>Chicken</h1>
+                <RestaurantMenuHeader />
                 {chickenItems}
             </div>
             <div className={'menu-selection'}>
                 <h1>Beef</h1>
+                <RestaurantMenuHeader />
                 {seafoodItems}
             </div>
             <div className={'menu-selection'}>
                 <h1>Seafood</h1>
+                <RestaurantMenuHeader />
                 {sideItems}
             </div>
         </div>
