@@ -1,14 +1,11 @@
 package com.resturantapi.restaurantapi.controller;
 
-import com.resturantapi.restaurantapi.model.CartItemRequest;
-import com.resturantapi.restaurantapi.model.CartItemResponse;
+import com.resturantapi.restaurantapi.model.AddedCartItemResponse;
+import com.resturantapi.restaurantapi.model.Food;
 import com.resturantapi.restaurantapi.service.CartService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
@@ -31,11 +28,12 @@ public class CartController {
 //    }
 
     @PostMapping("/cart-add-item-request")
-    public ResponseEntity<CartItemRequest> putItemInCart(@RequestBody CartItemRequest cartItemRequest){
+    @ResponseBody
+    public ResponseEntity<AddedCartItemResponse> putItemInCart(@RequestBody Food food){
 
-        CartItemResponse cartItemResponse = cartService.putItemInCart(cartItemRequest);
+        AddedCartItemResponse addedCartItemResponse = cartService.putItemInCart(food);
 
-        ResponseEntity responseEntity = new ResponseEntity(cartItemResponse, HttpStatus.OK);
+        ResponseEntity responseEntity = new ResponseEntity(addedCartItemResponse, HttpStatus.OK);
 
         return responseEntity;
     }

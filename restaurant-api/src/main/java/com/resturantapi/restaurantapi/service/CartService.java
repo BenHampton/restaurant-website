@@ -1,9 +1,7 @@
 package com.resturantapi.restaurantapi.service;
 
 import com.resturantapi.restaurantapi.config.RestaurantRepository;
-import com.resturantapi.restaurantapi.model.CartItemRequest;
-import com.resturantapi.restaurantapi.model.CartItemResponse;
-import com.resturantapi.restaurantapi.model.Food;
+import com.resturantapi.restaurantapi.model.*;
 import com.resturantapi.restaurantapi.util.CartServiceUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
@@ -11,6 +9,7 @@ import org.springframework.stereotype.Component;
 @Component
 @Slf4j
 public class CartService {
+
 
     private RestaurantRepository restaurantRepository;
 
@@ -22,28 +21,23 @@ public class CartService {
         this.cartServiceUtil = cartServiceUtil;
     }
 
-    public CartItemResponse putItemInCart(CartItemRequest cartItemRequest){
+    public AddedCartItemResponse putItemInCart(Food food){
 
-        CartItemResponse cartItemResponse = retrieveItemFromCart(cartItemRequest);
+        CartItemResponse.addItemToCart(food);
 
-        return cartItemResponse;
+        AddedCartItemResponse addedCartItemResponse = retrieveCartTotal(food);
+
+        return addedCartItemResponse;
     }
 
-    public CartItemResponse retrieveItemFromCart(CartItemRequest cartItemRequest){
+    public AddedCartItemResponse retrieveCartTotal(Food food){
 
-        CartItemResponse cartItemResponse = new CartItemResponse();
+        AddedCartItemResponse addedCartItemResponse = new AddedCartItemResponse();
 
-        try {
+        addedCartItemResponse.setItemName(food.getName());
 
-            Food food = restaurantRepository.findByName(cartItemRequest.getFood().getName());
+        addedCartItemResponse.setCartTotal(cartServiceUtil.retrieveCartTotal());
 
-            cartItemResponse = cartServiceUtil.generateCartItemResponse(cartItemRequest, food);
-
-        } catch (Exception e){
-            log.info("Error occurred in putItemInCart when trying to retrieveItemFromCart: " + e.getMessage());
-            cartItemResponse.setErrorMessage(true);
-        }
-
-        return cartItemResponse;
+        return addedCartItemResponse;
     }
 }

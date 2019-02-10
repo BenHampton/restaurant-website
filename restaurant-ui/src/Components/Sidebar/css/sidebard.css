@@ -27,9 +27,6 @@ li a:hover{
     color: #007bff;
 }
 
-/*li a:hover {*/
-    /*background-color: #111;*/
-/*}*/
 
 .sidebar {
     display: block;
@@ -46,10 +43,7 @@ li a:hover{
 /* height of sidebar*/
 .sidebar-wrapper{
     position: relative;
-    /*height: 10vh;*/
-    /*overflow: auto;*/
     width: 100%;
-    /*z-index: 4;*/
 }
 
 .sidebar-fixed{
@@ -67,115 +61,7 @@ li a:hover{
     position: fixed;
 }
 
-/*.navLink-hoverBox{*/
-    /*width: 100%;*/
-/*}*/
-
-/*menu item is highlighted when hovering*/
-/*.sidebar .nav .open > a,*/
-/*.sidebar .nav li.dropdown .dropdown-menu li:hover > a,*/
-/*.sidebar .nav li:hover > a {*/
-    /*background-color: rgba(255, 255, 255, 0.13);*/
-    /*opacity: 1;*/
-    /*width: 100%;*/
-/*}*/
-
-/*nav text color and space between text*/
-/*.sidebar .nav li > a {*/
-    /*color: #007bff;*/
-    /*!*margin: 5px 15px;*!*/
-    /*opacity: .86;*/
-    /*!*margin-top: 15px;*!*/
-    /*!*border-radius: 4px;*!*/
-/*}*/
-
-/*!*when menu item selected keeps highlighted*!*/
-/*.sidebar .nav li.active > a {*/
-    /*color: #FFFFFF;*/
-    /*opacity: 1;*/
-    /*background: rgba(255, 255, 255, 0.23);*/
-/*}*/
 
 .nav{
     position: fixed;
 }
-
-/*makes nav menu items align up to down idk if its up to down or down to up lol*/
-/*.sidebar .nav p {*/
-    /*!*line-height: 30px;*!*/
-    /*font-size: 12px;*/
-    /*font-weight: 600;*/
-    /*text-transform: uppercase;*/
-    /*!*margin: 0 0 0 45px;*!*/
-/*}*/
-
-
-
-
-/* opacity what whole screen light grey opacity!!*/
-
-/*.sidebar:before {*/
-/*opacity: .33;*/
-/*background: #000000;*/
-/*}*/
-
-
-
-/*    if removed idk   for all below    */
-
-/*.sidebar .nav i {*/
-     /*font-size: 28px;*/
-     /*float: left;*/
-     /*margin-right: 15px;*/
-     /*line-height: 30px;*/
-     /*width: 30px;*/
-     /*text-align: center;*/
- /*}*/
-
-
-/*.sidebar:after, .sidebar:before {*/
-    /*display: block;*/
-    /*content: "";*/
-    /*position: absolute;*/
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*top: 0;*/
-    /*left: 0;*/
-    /*z-index: 2;*/
-/*}*/
-
-
-/*.sidebar .sidebar-background {*/
-/*position: absolute;*/
-/*z-index: 1;*/
-/*height: 100%;*/
-/*width: 100%;*/
-/*display: block;*/
-/*top: 0;*/
-/*left: 0;*/
-/*background-size: cover;*/
-/*background-position: center center;*/
-/*}*/
-
-
-
-
-
-
-
-
-
-
-/******      puts className at the bottom of the page -- would need to have a FIX Position possibly           *****/
-
-/*.sidebar .nav > li.active-pro a{*/
-/*background: rgba(255, 255, 255, 0.14);*/
-/*opacity: 1;*/
-/*color: #FFFFFF;*/
-/*}*/
-
-/*.sidebar .nav > li.active-pro{*/
-/*position: absolute;*/
-/*width: 100%;*/
-/*bottom: 10px;*/
-/*}*/

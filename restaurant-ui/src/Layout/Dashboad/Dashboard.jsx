@@ -11,6 +11,7 @@ import '../../../node_modules/primeicons/primeicons.css';
 import '../../../node_modules/primeflex/primeflex.css';
 
 import '../../Components/Restaurant/css/restaurantView.css';
+import  './css/dashboard.css';
 
 class Dashboard extends Component{
     constructor(props){
@@ -21,10 +22,13 @@ class Dashboard extends Component{
     render(){
         return(
             <div className="p-grid p-nogutter">
+                <div className={'p-col-12 address'}>
+                    11686 Gravois Rd, St. Louis, MO 63126  (314) 849-1499
+                </div>
                 <div className={'p-col-12'} >
                     <Sidebar {...this.props}/>
                 </div>
-                <div className={'p-grid p-col-12 p-nogutter p-align-stretch vertical-container'}>
+                <div className={'p-grid p-col-12 p-nogutter p-align-stretch vertical-container box-container'}>
                     <div className={'p-col-12'}>
                         <Switch>
                             {dashboardRoutes.map((prop, key) => {
