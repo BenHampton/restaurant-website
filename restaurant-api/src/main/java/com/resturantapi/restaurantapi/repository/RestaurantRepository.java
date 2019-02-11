@@ -1,4 +1,4 @@
-package com.resturantapi.restaurantapi.config;
+package com.resturantapi.restaurantapi.repository;
 
 import com.resturantapi.restaurantapi.model.Food;
 import org.springframework.context.annotation.Configuration;

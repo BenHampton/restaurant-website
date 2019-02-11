@@ -1,7 +1,7 @@
 package com.resturantapi.restaurantapi.controller;
 
 import com.resturantapi.restaurantapi.model.AddedCartItemResponse;
-import com.resturantapi.restaurantapi.model.Food;
+import com.resturantapi.restaurantapi.model.cache.RedisFood;
 import com.resturantapi.restaurantapi.service.CartService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -17,24 +17,21 @@ public class CartController {
         this.cartService = cartService;
     }
 
-//    @GetMapping("/food-order-cart-responses")
-//    public ResponseEntity<CartItemRequest> generateCartResponse(@RequestBody CartItemRequest cartRequest){
-//
-//        CartItemResponse cartResponse = cartService.retrieveCartItems(cartRequest);
-//
-//        ResponseEntity responseEntity = new ResponseEntity(cartRequest, HttpStatus.OK);
-//
-//        return responseEntity;
-//    }
+    //TODO
+    // 1. add to cart put item in cart & return the items name with cart total(growl)
+    // 2. update cart & return item updated and cart total(growl)
+    // 3. delete from cart & return item deleted and cart total (growl)
 
     @PostMapping("/cart-add-item-request")
     @ResponseBody
-    public ResponseEntity<AddedCartItemResponse> putItemInCart(@RequestBody Food food){
+    public ResponseEntity<AddedCartItemResponse> putItemInCart(@RequestBody RedisFood redisFood){
 
-        AddedCartItemResponse addedCartItemResponse = cartService.putItemInCart(food);
+        AddedCartItemResponse addedCartItemResponse = cartService.retrieveAddedCartItemResponse(redisFood);
 
         ResponseEntity responseEntity = new ResponseEntity(addedCartItemResponse, HttpStatus.OK);
 
         return responseEntity;
     }
+
+
 }

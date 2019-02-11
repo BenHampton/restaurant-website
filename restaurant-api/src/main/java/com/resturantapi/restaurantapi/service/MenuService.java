@@ -1,8 +1,8 @@
 package com.resturantapi.restaurantapi.service;
 
-import com.resturantapi.restaurantapi.config.RestaurantRepository;
 import com.resturantapi.restaurantapi.model.Food;
 import com.resturantapi.restaurantapi.model.Menu;
+import com.resturantapi.restaurantapi.repository.RestaurantRepository;
 import org.springframework.stereotype.Component;
 
 import java.util.List;

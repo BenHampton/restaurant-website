@@ -5,7 +5,7 @@ import lombok.Data;
 @Data
 public class AddedCartItemResponse {
 
-    String itemName;
+    private String name;
 
-    String cartTotal;
+    private String cartTotal;
 }

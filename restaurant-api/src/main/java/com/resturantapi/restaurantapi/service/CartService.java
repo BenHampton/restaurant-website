@@ -1,8 +1,10 @@
 package com.resturantapi.restaurantapi.service;
 
-import com.resturantapi.restaurantapi.config.RestaurantRepository;
-import com.resturantapi.restaurantapi.model.*;
+import com.resturantapi.restaurantapi.repository.RedisFoodRepository;
+import com.resturantapi.restaurantapi.model.AddedCartItemResponse;
+import com.resturantapi.restaurantapi.model.cache.RedisFood;
 import com.resturantapi.restaurantapi.util.CartServiceUtil;
+import com.resturantapi.restaurantapi.util.cache.CartServiceCacheUtil;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
@@ -10,34 +12,28 @@ import org.springframework.stereotype.Component;
 @Slf4j
 public class CartService {
 
-
-    private RestaurantRepository restaurantRepository;
-
     private CartServiceUtil cartServiceUtil;
 
-    public CartService(RestaurantRepository restaurantRepository,
-                       CartServiceUtil cartServiceUtil) {
-        this.restaurantRepository = restaurantRepository;
+    private CartServiceCacheUtil cartServiceCacheUtil;
+
+    private RedisFoodRepository redisFoodRepository;
+
+    public CartService(CartServiceUtil cartServiceUtil,
+                       CartServiceCacheUtil cartServiceCacheUtil,
+                       RedisFoodRepository redisFoodRepository) {
         this.cartServiceUtil = cartServiceUtil;
+        this.cartServiceCacheUtil = cartServiceCacheUtil;
+        this.redisFoodRepository = redisFoodRepository;
     }
 
-    public AddedCartItemResponse putItemInCart(Food food){
+    public AddedCartItemResponse retrieveAddedCartItemResponse(RedisFood redisFood){
 
-        CartItemResponse.addItemToCart(food);
+        redisFoodRepository.save(redisFood);
 
-        AddedCartItemResponse addedCartItemResponse = retrieveCartTotal(food);
+        AddedCartItemResponse addedCartItemResponse =
+                cartServiceUtil.generateAddedCartItemResponse(cartServiceCacheUtil.retrieveAllItemsInCartFromCache(), redisFood);
 
         return addedCartItemResponse;
     }
 
-    public AddedCartItemResponse retrieveCartTotal(Food food){
-
-        AddedCartItemResponse addedCartItemResponse = new AddedCartItemResponse();
-
-        addedCartItemResponse.setItemName(food.getName());
-
-        addedCartItemResponse.setCartTotal(cartServiceUtil.retrieveCartTotal());
-
-        return addedCartItemResponse;
-    }
 }
