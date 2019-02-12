@@ -8,4 +8,6 @@ public class AddedCartItemResponse {
     private String name;
 
     private String cartTotal;
+
+    private boolean errorMessage;
 }

@@ -6,7 +6,11 @@ import com.resturantapi.restaurantapi.model.cache.RedisFood;
 import com.resturantapi.restaurantapi.util.CartServiceUtil;
 import com.resturantapi.restaurantapi.util.cache.CartServiceCacheUtil;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.data.mongodb.core.aggregation.ArithmeticOperators;
 import org.springframework.stereotype.Component;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Component
 @Slf4j
@@ -32,8 +36,14 @@ public class CartService {
 
         AddedCartItemResponse addedCartItemResponse =
                 cartServiceUtil.generateAddedCartItemResponse(cartServiceCacheUtil.retrieveAllItemsInCartFromCache(), redisFood);
-
         return addedCartItemResponse;
+    }
+
+    public List<RedisFood> retrieveAllItemsInCart(){
+
+        List<RedisFood> redisFoods = new ArrayList<>();
+
+        return redisFoods;
     }
 
 }

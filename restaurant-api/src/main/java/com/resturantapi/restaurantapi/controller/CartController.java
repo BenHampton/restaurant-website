@@ -1,11 +1,14 @@
 package com.resturantapi.restaurantapi.controller;
 
 import com.resturantapi.restaurantapi.model.AddedCartItemResponse;
+import com.resturantapi.restaurantapi.model.cache.RedisCart;
 import com.resturantapi.restaurantapi.model.cache.RedisFood;
 import com.resturantapi.restaurantapi.service.CartService;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 @RestController
 @CrossOrigin(origins = "http://localhost:3000")
@@ -29,6 +32,16 @@ public class CartController {
         AddedCartItemResponse addedCartItemResponse = cartService.retrieveAddedCartItemResponse(redisFood);
 
         ResponseEntity responseEntity = new ResponseEntity(addedCartItemResponse, HttpStatus.OK);
+
+        return responseEntity;
+    }
+
+    @GetMapping("cart-items-resposne")
+    public ResponseEntity<RedisCart> retrieveAllItemsInCart(){
+
+        List<RedisFood> redisFoods = cartService.retrieveAllItemsInCart();
+
+        ResponseEntity responseEntity = new ResponseEntity(redisFoods, HttpStatus.OK);
 
         return responseEntity;
     }

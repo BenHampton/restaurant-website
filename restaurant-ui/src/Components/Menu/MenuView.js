@@ -3,7 +3,6 @@ import React from 'react';
 import './css/menuView.css';
 import {Button} from "primereact/button";
 
-
 const MenuView = props => {
 
     return(
