@@ -3,7 +3,9 @@ package com.resturantapi.restaurantapi.model;
 import lombok.Data;
 
 @Data
-public class AddedCartItemResponse {
+public class UpdateCartResponse {
+
+    private String id;
 
     private String name;
 

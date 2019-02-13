@@ -1,13 +1,14 @@
 package com.resturantapi.restaurantapi.service;
 
-import com.resturantapi.restaurantapi.repository.RedisFoodRepository;
-import com.resturantapi.restaurantapi.model.AddedCartItemResponse;
+import com.resturantapi.restaurantapi.model.UpdateCartResponse;
+import com.resturantapi.restaurantapi.model.cache.RedisCartResponse;
 import com.resturantapi.restaurantapi.model.cache.RedisFood;
+import com.resturantapi.restaurantapi.repository.RedisFoodRepository;
 import com.resturantapi.restaurantapi.util.CartServiceUtil;
 import com.resturantapi.restaurantapi.util.cache.CartServiceCacheUtil;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.data.mongodb.core.aggregation.ArithmeticOperators;
 import org.springframework.stereotype.Component;
+import org.springframework.util.CollectionUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,20 +31,44 @@ public class CartService {
         this.redisFoodRepository = redisFoodRepository;
     }
 
-    public AddedCartItemResponse retrieveAddedCartItemResponse(RedisFood redisFood){
+    public UpdateCartResponse retrieveAddedItemToCart(RedisFood redisFood){
 
         redisFoodRepository.save(redisFood);
 
-        AddedCartItemResponse addedCartItemResponse =
-                cartServiceUtil.generateAddedCartItemResponse(cartServiceCacheUtil.retrieveAllItemsInCartFromCache(), redisFood);
-        return addedCartItemResponse;
+        return retrieveUpdateCartResponse(redisFood);
     }
 
-    public List<RedisFood> retrieveAllItemsInCart(){
+    public UpdateCartResponse retrieveRemovedItemFromCart(RedisFood redisFood){
+
+        redisFoodRepository.deleteById(redisFood.getId());
+
+        return retrieveUpdateCartResponse(redisFood);
+
+    }
+
+    public RedisCartResponse retrieveAllItemsInCart(){
 
         List<RedisFood> redisFoods = new ArrayList<>();
 
-        return redisFoods;
+        RedisCartResponse redisCartResponse = new RedisCartResponse(redisFoods, "$0.00", false);
+
+        redisFoods = cartServiceCacheUtil.retrieveAllItemsInCartFromCache();
+
+        if (CollectionUtils.isEmpty(redisFoods)){
+            return redisCartResponse;
+        } else {
+            redisCartResponse = cartServiceUtil.generateRedisCartResponseResponse(redisFoods);
+        }
+
+        return redisCartResponse;
+    }
+
+
+
+    private UpdateCartResponse retrieveUpdateCartResponse(RedisFood redisFood){
+        UpdateCartResponse updateCartResponse =
+                cartServiceUtil.generateUpdatedCarResponse(cartServiceCacheUtil.retrieveAllItemsInCartFromCache(), redisFood);
+        return updateCartResponse;
     }
 
 }

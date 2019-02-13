@@ -1,8 +1,8 @@
 import App from "../Components/HomePage/App";
 import RestaurantComponent from "../Components/Restaurant/RestaurantComponent";
-import CartComponent from "../Components/Cart/CartComponent";
 import React from "react";
 import image from '../resources/images/ttSideBar.jpg';
+import CartInfoComponent from "../Components/Cart/CartInfoComponent";
 
 const dashboardRoutes = [
     {
@@ -26,7 +26,7 @@ const dashboardRoutes = [
       path: '/cart',
       name: 'View Cart',
       hide: false,
-      component: CartComponent
+      component: CartInfoComponent
     },
 
     { redirect: true,

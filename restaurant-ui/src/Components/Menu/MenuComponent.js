@@ -28,7 +28,7 @@ export default class MenuComponent extends Component{
 
     addToCart(){
 
-        axios.post('http://localhost:8080/cart-add-item-request',{
+        axios.post('http://localhost:8080/cart-add-item-requests',{
             name: this.state.food.name,
             price: this.state.food.price,
             quantity: this.state.quantity,
@@ -45,7 +45,7 @@ export default class MenuComponent extends Component{
                     cartTotal: data.cartTotal,
                     cartErrorMessage: data.errorMessage
                 }, () => {
-                    this.growl.show({summary: 'Added To Cart', detail: this.renderGrowlText});
+                    this.growl.show({summary: 'Added To Cart', detail: this.renderGrowlText() });
                 });
             })
     }
@@ -54,10 +54,11 @@ export default class MenuComponent extends Component{
         return(
             <div>
                 <div>
-                    {this.state.itemName} added to cart
-                </div><br />
+                    {this.state.itemName}
+                </div>
+                <br />
                 <div>
-                    Cart Total: {this.state.cartTotal}
+                    <b>Cart Total: </b>{this.state.cartTotal}
                 </div>
             </div>
         )

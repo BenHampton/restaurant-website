@@ -1,0 +1,15 @@
+.cart-container{
+    background: #007bff;
+    transition: opacity 1s linear;
+}
+
+.cart-item{
+    padding-top: 5% !important;
+}
+
+.remove-item-transition {
+    transition: opacity 3s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+}

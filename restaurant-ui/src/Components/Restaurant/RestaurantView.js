@@ -13,42 +13,42 @@ const RestaurantView = props => {
     let seafoodItems = [];
     let sideItems = [];
 
-    if(appetizerItems !== null ){
+    if (appetizerItems !== null ){
         props.appetizers.map((food, key) => {
             appetizerItems.push(<MenuComponent food={food} key={key}/>)
         });
     }
-    if(saladItems !== null ){
+    if (saladItems !== null ){
         props.salads.map((food, key) => {
             saladItems.push(<MenuComponent food={food} key={key}/>)
         });
     }
-    if(pastaItems !== null ){
+    if (pastaItems !== null ){
         props.pastas.map((food, key) => {
             pastaItems.push(<MenuComponent food={food} key={key}/>)
         });
     }
-    if(vealItems !== null ){
+    if (vealItems !== null ){
         props.veals.map((food, key) => {
             vealItems.push(<MenuComponent food={food} key={key}/>)
         });
     }
-    if(beefItems !== null ){
+    if (beefItems !== null ){
         props.beefs.map((food, key) => {
             beefItems.push(<MenuComponent food={food} key={key}/>)
         });
     }
-    if(chickenItems !== null ){
+    if (chickenItems !== null ){
         props.chickens.map((food, key) => {
             chickenItems.push(<MenuComponent food={food} key={key}/>)
         });
     }
-    if(seafoodItems !== null ){
+    if (seafoodItems !== null ){
         props.seafoods.map((food, key) => {
             seafoodItems.push(<MenuComponent food={food} key={key}/>)
         });
     }
-    if(sideItems !== null ){
+    if (sideItems !== null ){
         props.sides.map((food, key) => {
             sideItems.push(<MenuComponent food={food} key={key}/>)
         });

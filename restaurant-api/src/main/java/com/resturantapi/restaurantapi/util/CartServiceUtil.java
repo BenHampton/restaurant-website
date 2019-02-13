@@ -1,6 +1,7 @@
 package com.resturantapi.restaurantapi.util;
 
-import com.resturantapi.restaurantapi.model.AddedCartItemResponse;
+import com.resturantapi.restaurantapi.model.UpdateCartResponse;
+import com.resturantapi.restaurantapi.model.cache.RedisCartResponse;
 import com.resturantapi.restaurantapi.model.cache.RedisFood;
 import org.springframework.stereotype.Component;
 
@@ -9,12 +10,20 @@ import java.util.List;
 @Component
 public class CartServiceUtil {
 
-    public AddedCartItemResponse generateAddedCartItemResponse(List<RedisFood> redisFoods, RedisFood redisFood){
-        AddedCartItemResponse addedCartItemResponse = new AddedCartItemResponse();
-        addedCartItemResponse.setName(redisFood.getName());
-        addedCartItemResponse.setCartTotal(retrieveCartTotal(redisFoods));
+    public UpdateCartResponse generateUpdatedCarResponse(List<RedisFood> redisFoods, RedisFood redisFood){
+        UpdateCartResponse updateCartResponse = new UpdateCartResponse();
+        updateCartResponse.setName(redisFood.getName());
+        updateCartResponse.setCartTotal(retrieveCartTotal(redisFoods));
 
-        return addedCartItemResponse;
+        return updateCartResponse;
+    }
+
+    public RedisCartResponse generateRedisCartResponseResponse(List<RedisFood> redisFoods){
+
+        RedisCartResponse redisCartResponse = new RedisCartResponse();
+        redisCartResponse.getCart().addAll(redisFoods);
+        redisCartResponse.setCartTotal(retrieveCartTotal(redisFoods));
+        return redisCartResponse;
     }
 
     private String retrieveCartTotal(List<RedisFood> redisFoods){
