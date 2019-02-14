@@ -1,7 +1,6 @@
 import React from 'react';
 import MenuComponent from "../Menu/MenuComponent";
 import {RestaurantMenuHeader} from "./RestaurantMenuHeader";
-
 const RestaurantView = props => {
 
     let appetizerItems = [];
@@ -57,6 +56,7 @@ const RestaurantView = props => {
     return(
 
         <div className={'restaurant-container'}>
+            <div className={'surf-n-turf'}></div>
             <div className={'menu-selection-first'}>
                 <h1>Appetizers</h1>
                 <RestaurantMenuHeader />

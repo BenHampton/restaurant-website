@@ -34,7 +34,7 @@ public class CartController {
         return responseEntity;
     }
 
-    @GetMapping("cart-items-responses")
+    @GetMapping("/cart-items-responses")
     public ResponseEntity<RedisCartResponse> retrieveAllItemsInCart(){
 
         RedisCartResponse redisCartResponse = cartService.retrieveAllItemsInCart();
@@ -44,7 +44,7 @@ public class CartController {
         return responseEntity;
     }
 
-    @PostMapping("cart-remove-item-requests")
+    @PostMapping("/cart-remove-item-requests")
     public ResponseEntity<UpdateCartResponse> removeItemFromCart(@RequestBody RedisFood redisFood){
 
         UpdateCartResponse updateCartResponse = cartService.retrieveRemovedItemFromCart(redisFood);

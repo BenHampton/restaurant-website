@@ -3,6 +3,7 @@ import RestaurantComponent from "../Components/Restaurant/RestaurantComponent";
 import React from "react";
 import image from '../resources/images/ttSideBar.jpg';
 import CartInfoComponent from "../Components/Cart/CartInfoComponent";
+import LocationComponent from "../Components/Location/LocationComponent";
 
 const dashboardRoutes = [
     {
@@ -28,7 +29,12 @@ const dashboardRoutes = [
       hide: false,
       component: CartInfoComponent
     },
-
+    {
+        path: '/hours',
+        name: 'Location & Hours',
+        hide: false,
+        component: LocationComponent
+    },
     { redirect: true,
       path: '/',
       to: '/home',

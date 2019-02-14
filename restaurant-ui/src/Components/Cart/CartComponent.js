@@ -43,7 +43,6 @@ export default class CartComponent extends Component {
     }
 
     cartTotalAfterRemovedItem(cartTotal){
-        console.log(cartTotal)
         this.props.updatedCart(cartTotal);
     }
 

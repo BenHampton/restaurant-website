@@ -5,7 +5,11 @@ import com.resturantapi.restaurantapi.model.cache.RedisCartResponse;
 import com.resturantapi.restaurantapi.model.cache.RedisFood;
 import org.springframework.stereotype.Component;
 
+import java.math.RoundingMode;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 import java.util.List;
+import java.util.Locale;
 
 @Component
 public class CartServiceUtil {
@@ -28,12 +32,13 @@ public class CartServiceUtil {
 
     private String retrieveCartTotal(List<RedisFood> redisFoods){
 
-        String cartTotal = String.valueOf(redisFoods
+        NumberFormat currencyFormatter = NumberFormat.getCurrencyInstance( new Locale("en", "US"));
+
+        double cartTotal = redisFoods
                 .stream()
                 .mapToDouble( item -> Double.parseDouble(item.getPrice().replace("$","")))
-                .sum());
+                .sum();
 
-            return "$".concat(cartTotal);
-
+            return currencyFormatter.format(cartTotal);
     }
 }
