@@ -2,7 +2,7 @@ import React, {Component} from "react";
 import {Redirect, Route, Switch} from "react-router-dom";
 
 import Sidebar from "../../Components/Sidebar/Sidebar";
-
+import Footer from "../../Components/Footer/Footer";
 import dashboardRoutes from "../../routes/dashboard.jsx";
 
 import '../../../node_modules/primeicons/fonts/primeicons.svg';
@@ -53,6 +53,9 @@ class Dashboard extends Component{
                             })}
                         </Switch>
                     </div>
+                </div>
+                <div className={'p-col'}>
+                    <Footer />
                 </div>
             </div>
         );

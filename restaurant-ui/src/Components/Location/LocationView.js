@@ -6,14 +6,16 @@ const LocationView = props => {
         <div>
             <div></div>
             <div className={'location-and-hours'}>
-                <h2>HOURS & LOCATION</h2>
-                <div>{props.address}</div>
-                <div>{props.state}, {props.zipCode}</div>
-                <div>{props.phoneNumber}</div>
-                <br />
-                <div>Tuesday - Friday / {props.weekDayLunchHours}</div>
-                <div>Monday - Thursday / {props.weekendDinnerHours}</div>
-                <div>Friday & Saturday / {props.weekendDinnerHours}</div>
+                <h2 className={'location-hours-header'}>HOURS & LOCATION</h2>
+                <div className={'location-hours-text'}>
+                    <div>{props.address}</div>
+                    <div>{props.state}, {props.zipCode}</div>
+                    <div>{props.phoneNumber}</div>
+                    <br />
+                    <div>Tuesday - Friday / {props.weekDayLunchHours}</div>
+                    <div>Monday - Thursday / {props.weekendDinnerHours}</div>
+                    <div>Friday & Saturday / {props.weekendDinnerHours}</div>
+                </div>
             </div>
         </div>
     );

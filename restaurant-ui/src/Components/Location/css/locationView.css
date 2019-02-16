@@ -1,4 +1,15 @@
 .location-and-hours{
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
     text-align: center;
     font-size: 18px;
+}
+
+.location-hours-header{
+    width: 45%;
+    margin-left: 29%;
+    border-bottom: groove 1px;
+}
+
+.location-hours-text{
+    font-size: 16px;
 }
