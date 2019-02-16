@@ -4,8 +4,7 @@ import './css/cartInfoView.css';
 
 const CartInfoView = props => {
 
-    const cartTotalClassName =  props.cartTotal === '$0.00' ? 'empty-cart-total-container' : 'cart-total-container';
-
+    let cartTotalClassName =  props.cartTotal === '$0.00' ? 'empty-cart-total-container' : 'cart-total-container';
     let cartItems = [];
 
     if (cartItems !== null) {
@@ -15,16 +14,20 @@ const CartInfoView = props => {
     }
 
     return(
-        <div className={'p-grid'}>
+        <div className={'cart-info-view-container p-grid'}>
             <div className={'p-col'}>
-                <div className={' cart-header'}>
+                <div>
+                    <div className={'tuttomare-image-cart'} />
+                </div>
+                <div className={'cart-header'}>
                     <span>Name</span>
                     <span className={'cart-header-price'}>Price</span>
                     <span className={'cart-header-remove-item'}>Remove Item</span>
                 </div>
-                    <div className={'p-col'}>
-                        {cartItems}
-                    </div>
+                <div className={'p-col'}>
+                    {cartItems}
+                </div>
+                <div className={'test'}>
                 { props.cartTotal === '$0.00' ?
                     <div className={'empty-cart-total-text'}>
                         There are no items in your cart.
@@ -34,6 +37,7 @@ const CartInfoView = props => {
                 }
                 <div className={cartTotalClassName}>
                     Cart Total: { props.cartTotal }
+                </div>
                 </div>
             </div>
         </div>

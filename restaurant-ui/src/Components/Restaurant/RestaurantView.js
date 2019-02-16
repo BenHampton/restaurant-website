@@ -56,7 +56,7 @@ const RestaurantView = props => {
     return(
 
         <div className={'restaurant-container'}>
-            <div className={'surf-n-turf'}></div>
+            <div className={'surf-n-turf'} />
             <div className={'menu-selection-first'}>
                 <h1>Appetizers</h1>
                 <RestaurantMenuHeader />

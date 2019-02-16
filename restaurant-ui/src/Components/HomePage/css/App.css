@@ -13,7 +13,7 @@
   margin-top: -10%;
 }
 
-.parallax-home-page{
+.parallax-home-page {
   background-image: url("../../../resources/images/steak.jpg");
   min-height: 600px;
   background-attachment: fixed;
@@ -22,27 +22,37 @@
   background-size: cover;
 }
 
-.main-text{
+.main-text {
   background: #fcf8f4;
   color: black;
   min-height: 25vh;
   text-align: center;
-  font-size: 18px;
   padding-top: 5%;
+  margin-left: 20%;
+  margin-right: 20%;
+  font-size: 20px;
 }
 
-.dinning-room{
+.dinning-room {
   width: 100%;
 }
 
+.card-link {
+  font-size: 17px;
+  text-decoration: none;
+  color: black;
+}
 
 
-.menu-container{
+
+/*START OF MENU-ROOM CSS*/
+.menu-container {
   margin-top: 5%;
   background: #fcf8f4;
 }
 
-.menu-card{
+.menu-card {
+  text-align: center;
   position: absolute;
   color: black;
   background: white;
@@ -52,56 +62,78 @@
   font-size: 18px;
 }
 
-.menu-image{
+.menu-image {
   width: 50%;
   height: 60vh;
   margin-left: -25%;
 }
 
+.menu-link-container {
+  margin-top: 5%;
+}
+/*END OF MENU-ROOM CSS*/
 
 
-.party-room-container{
+
+
+/*START OF PARTY-ROOM CSS*/
+.party-room-container {
   padding-top: 5%;
   background: #fcf8f4;
 }
 
-.party-card{
+.party-card {
+  text-align: center;
   position: absolute;
   color: black;
   background: white;
   width: 29%;
-  height: 25vh;
+  height: 23vh;
   margin-left: -25%;
   font-size: 18px;
 
 }
 
-.party-room-image{
+.party-room-image {
   width: 50%;
   height: 60vh;
   margin-left: 25%;
 }
 
+.party-link-container {
+  margin-top: 10%;
+}
+/*END OF PARTY-ROOM CSS*/
 
 
-.lunch-card-container{
+
+/*START OF CATERING-ROOM CSS*/
+.catering-card-container {
   padding-top: 5%;
   background: #fcf8f4;
+  margin-bottom: 10%;
 }
 
-.lunch-card{
+.catering-card {
+  text-align: center;
   position: absolute;
   color: black;
   background: white;
-  width: 29%;
-  height: 25vh;
-  margin-left: 24%;
+  width: 33%;
+  height: 27vh;
+  margin-left: 27%;
   font-size: 18px;
+  padding: 1%;
 
 }
 
-.lunch-image{
+.catering-image {
   width: 50%;
   height: 60vh;
   margin-left: -25%;
 }
+
+.carting-link-container {
+  margin-top: 4%;
+}
+/*END OF CATERING-ROOM CSS*/

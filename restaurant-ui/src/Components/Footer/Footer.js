@@ -1,7 +1,8 @@
 import React, { Component} from 'react';
 import './css/foot.css';
-import FaceBookImage from '../../resources/images/facebook.PNG';
-import Instagram from '../../resources/images/instagram.PNG';
+import FaceBookImage from '../../resources/images/facebook.png';
+import Instagram from '../../resources/images/instagram.png';
+import Twitter from '../../resources/images/twitter.png';
 
 export default class Footer extends Component{
     render(){
@@ -16,6 +17,11 @@ export default class Footer extends Component{
                     <span className={'footer-image'}>
                         <a href={'https://www.instagram.com/trattoria_toscanastl/?hl=en'}>
                             <img src={Instagram} alt={'instagramImage'}/>
+                        </a>
+                    </span>
+                    <span className={'footer-image'}>
+                        <a href={'https://twitter.com/toscanastl'}>
+                            <img src={Twitter} alt={'instagramImage'}/>
                         </a>
                     </span>
                 </div>

@@ -1,7 +1,7 @@
 .cart-container{
     background: tan;
     transition: opacity 1s linear;
-    padding: 2%
+    padding: 2%;
 }
 
 .cart-item{
