@@ -5,6 +5,7 @@ import axios from 'axios';
 
 import MenuView from "./MenuView";
 import {Growl} from "primereact/growl";
+import Link from "react-router-dom/es/Link";
 
 export default class MenuComponent extends Component{
     constructor(props){
@@ -45,7 +46,7 @@ export default class MenuComponent extends Component{
                     cartTotal: data.cartTotal,
                     cartErrorMessage: data.errorMessage
                 }, () => {
-                    this.growl.show({summary: 'Added To Cart', detail: this.renderGrowlText() });
+                    this.growl.show({summary: 'Added To Cart', detail: this.renderGrowlText(), sticky: true});
                 });
             })
     }
@@ -60,6 +61,14 @@ export default class MenuComponent extends Component{
                 <div>
                     <b>Cart Total: </b>{this.state.cartTotal}
                 </div>
+                <Link
+                    to={{
+                        pathname: '/cart'
+                    }} >
+                    <div>
+                        View Cart
+                    </div>
+                </Link>
             </div>
         )
     }

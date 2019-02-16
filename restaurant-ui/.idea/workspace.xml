@@ -3,12 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="b7dc2a4a-5f15-4627-9d1b-41464ee1c566" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sidebar/Sidebar.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar/css/sidebard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sidebar/css/sidebard.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Layout/Dashboad/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Dashboad/Dashboard.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Menu/MenuComponent.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Menu/MenuComponent.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Menu/css/menuComponent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Menu/css/menuComponent.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Menu/css/menuView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Menu/css/menuView.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +28,50 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Menu/MenuComponent.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="178">
+              <caret line="48" column="94" selection-start-line="48" selection-start-column="94" selection-end-line="48" selection-end-column="94" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Menu/css/menuView.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/Menu/css/menuComponent.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/Menu/MenuView.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="396">
+              <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -75,7 +115,6 @@
         <option value="$PROJECT_DIR$/src/Layout/Dashboad/css/dashboard.css" />
         <option value="$PROJECT_DIR$/src/Components/Menu/MenuView.js" />
         <option value="$PROJECT_DIR$/src/Components/Cart/css/CartComponent.js" />
-        <option value="$PROJECT_DIR$/src/Components/Menu/MenuComponent.js" />
         <option value="$PROJECT_DIR$/src/Components/Cart/css/cartComponent.css" />
         <option value="$PROJECT_DIR$/src/Components/Cart/CartInfoComponent.js" />
         <option value="$PROJECT_DIR$/src/Components/Cart/CartInfoView.js" />
@@ -89,8 +128,6 @@
         <option value="$PROJECT_DIR$/src/Components/Restaurant/RestaurantView.js" />
         <option value="$PROJECT_DIR$/src/routes/dashboard.jsx" />
         <option value="$PROJECT_DIR$/src/Components/Location/LocationComponent.js" />
-        <option value="$PROJECT_DIR$/src/Components/Menu/css/menuView.css" />
-        <option value="$PROJECT_DIR$/src/Components/Menu/css/menuComponent.css" />
         <option value="$PROJECT_DIR$/src/Components/Location/LocationView.js" />
         <option value="$PROJECT_DIR$/src/Components/Location/css/locationView.css" />
         <option value="$PROJECT_DIR$/src/Components/Footer/css/foot.css" />
@@ -98,6 +135,9 @@
         <option value="$PROJECT_DIR$/src/Components/Footer/Footer.js" />
         <option value="$PROJECT_DIR$/src/Components/Sidebar/Sidebar.jsx" />
         <option value="$PROJECT_DIR$/src/Components/Sidebar/css/sidebard.css" />
+        <option value="$PROJECT_DIR$/src/Components/Menu/MenuComponent.js" />
+        <option value="$PROJECT_DIR$/src/Components/Menu/css/menuView.css" />
+        <option value="$PROJECT_DIR$/src/Components/Menu/css/menuComponent.css" />
       </list>
     </option>
   </component>
@@ -152,6 +192,21 @@
               <item name="restaurant-ui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Menu" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restaurant-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restaurant-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Menu" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restaurant-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restaurant-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="Sidebar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -177,7 +232,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550295069711" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550296235885" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -229,7 +284,7 @@
       <workItem from="1548387100897" duration="8794000" />
       <workItem from="1549326154341" duration="5632000" />
       <workItem from="1549861402348" duration="22764000" />
-      <workItem from="1550264795648" duration="15118000" />
+      <workItem from="1550264795648" duration="16203000" />
     </task>
     <task id="LOCAL-00001" summary="Added React UI Browser Router">
       <created>1548302058166</created>
@@ -245,14 +300,22 @@
       <option name="project" value="LOCAL" />
       <updated>1550285322933</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="added side bar responsive scrolling">
+      <created>1550295182134</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1550295182134</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="81605000" />
+    <option name="totallyTimeSpent" value="82690000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="0" width="1848" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1409396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -297,7 +360,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added React UI Browser Router" />
     <MESSAGE value="added Footer, Location &amp; Hours $ Menu.css" />
-    <option name="LAST_COMMIT_MESSAGE" value="added Footer, Location &amp; Hours $ Menu.css" />
+    <MESSAGE value="added side bar responsive scrolling" />
+    <option name="LAST_COMMIT_MESSAGE" value="added side bar responsive scrolling" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
@@ -441,26 +505,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Menu/MenuView.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Menu/MenuComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="30" column="42" lean-forward="true" selection-start-line="30" selection-start-column="20" selection-end-line="30" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Location/LocationComponent.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-12">
@@ -478,20 +522,6 @@
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Menu/css/menuView.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="67" selection-start-line="1" selection-start-column="67" selection-end-line="1" selection-end-column="67" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Menu/css/menuComponent.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="4" lean-forward="true" selection-start-line="1" selection-start-column="4" selection-end-line="1" selection-end-column="68" />
         </state>
       </provider>
     </entry>
@@ -577,6 +607,40 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="66">
           <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Menu/MenuView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="26" lean-forward="true" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Menu/MenuComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="178">
+          <caret line="48" column="94" selection-start-line="48" selection-start-column="94" selection-end-line="48" selection-end-column="94" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Menu/css/menuView.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="2" column="18" selection-start-line="2" selection-start-column="18" selection-end-line="2" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Menu/css/menuComponent.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="21" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
         </state>
       </provider>
     </entry>
