@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7dc2a4a-5f15-4627-9d1b-41464ee1c566" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/CopyRights/CopyRightsView.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/CopyRights/css/CopyRightView.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Location/LocationView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Location/LocationView.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/Location/css/locationView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Location/css/locationView.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Layout/Dashboad/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Dashboad/Dashboard.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,11 +31,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/Components/Location/LocationView.js">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Components/CopyRights/CopyRightsView.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="484">
-              <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+            <state relative-caret-position="176">
+              <caret line="8" column="115" selection-start-line="8" selection-start-column="99" selection-end-line="8" selection-end-column="115" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -40,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Components/Location/css/locationView.css">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Components/CopyRights/css/CopyRightView.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+            <state relative-caret-position="242">
+              <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -103,14 +106,12 @@
         <option value="$PROJECT_DIR$/src/routes/dashboard.jsx" />
         <option value="$PROJECT_DIR$/src/Components/Location/LocationComponent.js" />
         <option value="$PROJECT_DIR$/src/Components/Footer/css/foot.css" />
-        <option value="$PROJECT_DIR$/src/Layout/Dashboad/Dashboard.jsx" />
         <option value="$PROJECT_DIR$/src/Components/Sidebar/Sidebar.jsx" />
         <option value="$PROJECT_DIR$/src/Components/Menu/MenuComponent.js" />
         <option value="$PROJECT_DIR$/src/Components/Menu/css/menuView.css" />
         <option value="$PROJECT_DIR$/src/Components/Menu/css/menuComponent.css" />
         <option value="$PROJECT_DIR$/src/Components/Restaurant/css/restaurantView.css" />
         <option value="$PROJECT_DIR$/src/Components/Sidebar/css/sidebard.css" />
-        <option value="$PROJECT_DIR$/src/Components/Footer/Footer.js" />
         <option value="$PROJECT_DIR$/src/Components/Restaurant/RestaurantView.js" />
         <option value="$PROJECT_DIR$/src/Components/Cart/CartView.js" />
         <option value="$PROJECT_DIR$/src/Components/Cart/css/cartView.css" />
@@ -118,8 +119,12 @@
         <option value="$PROJECT_DIR$/src/Components/Cart/css/cartInfoView.css" />
         <option value="$PROJECT_DIR$/src/Components/HomePage/App.js" />
         <option value="$PROJECT_DIR$/src/Components/HomePage/css/App.css" />
-        <option value="$PROJECT_DIR$/src/Components/Location/css/locationView.css" />
+        <option value="$PROJECT_DIR$/src/Components/Footer/Footer.js" />
         <option value="$PROJECT_DIR$/src/Components/Location/LocationView.js" />
+        <option value="$PROJECT_DIR$/src/Components/Location/css/locationView.css" />
+        <option value="$PROJECT_DIR$/src/Layout/Dashboad/Dashboard.jsx" />
+        <option value="$PROJECT_DIR$/src/Components/CopyRights/CopyRightsView.js" />
+        <option value="$PROJECT_DIR$/src/Components/CopyRights/css/CopyRightView.css" />
       </list>
     </option>
   </component>
@@ -167,30 +172,28 @@
               <item name="restaurant-ui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
+              <item name="CopyRights" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restaurant-ui" type="b2602c69:ProjectViewProjectNode" />
               <item name="restaurant-ui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
+              <item name="CopyRights" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restaurant-ui" type="b2602c69:ProjectViewProjectNode" />
               <item name="restaurant-ui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Location" type="462c0819:PsiDirectoryNode" />
+              <item name="Layout" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restaurant-ui" type="b2602c69:ProjectViewProjectNode" />
               <item name="restaurant-ui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Location" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="Layout" type="462c0819:PsiDirectoryNode" />
+              <item name="Dashboad" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -201,7 +204,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550356628349" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550357632010" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -253,7 +256,7 @@
       <workItem from="1548387100897" duration="8794000" />
       <workItem from="1549326154341" duration="5632000" />
       <workItem from="1549861402348" duration="22764000" />
-      <workItem from="1550264795648" duration="27431000" />
+      <workItem from="1550264795648" duration="28937000" />
     </task>
     <task id="LOCAL-00001" summary="Added React UI Browser Router">
       <created>1548302058166</created>
@@ -297,11 +300,18 @@
       <option name="project" value="LOCAL" />
       <updated>1550355674052</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated css">
+      <created>1550356656827</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1550356656827</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93918000" />
+    <option name="totallyTimeSpent" value="95424000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="0" width="1848" height="1047" extended-state="0" />
@@ -418,16 +428,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Location/LocationComponent.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-12">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Layout/Dashboad/css/dashboard.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="154">
@@ -480,23 +480,6 @@
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Layout/Dashboad/Dashboard.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="30" column="24" lean-forward="true" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Footer/Footer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="60" selection-start-line="3" selection-start-column="60" selection-end-line="3" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -627,18 +610,65 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Location/css/locationView.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+        <state relative-caret-position="308">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Footer/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="9" column="63" lean-forward="true" selection-start-line="9" selection-start-column="53" selection-end-line="9" selection-end-column="63" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Layout/Dashboad/Dashboard.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="61" column="19" lean-forward="true" selection-start-line="61" selection-start-column="19" selection-end-line="61" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Components/Location/LocationView.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="484">
-          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
+        <state relative-caret-position="66">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Location/LocationComponent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/CopyRights/CopyRightsView.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" column="115" selection-start-line="8" selection-start-column="99" selection-end-line="8" selection-end-column="115" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/CopyRights/css/CopyRightView.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
         </state>
       </provider>
     </entry>

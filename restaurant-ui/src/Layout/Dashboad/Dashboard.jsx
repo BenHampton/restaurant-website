@@ -12,6 +12,7 @@ import '../../../node_modules/primeflex/primeflex.css';
 
 import '../../Components/Restaurant/css/restaurantView.css';
 import  './css/dashboard.css';
+import CopyRightsView from "../../Components/CopyRights/CopyRightsView";
 
 class Dashboard extends Component{
     constructor(props){
@@ -74,6 +75,9 @@ class Dashboard extends Component{
                 </div>
                 <div className={'p-col'}>
                     <Footer />
+                </div>
+                <div className={'p-col'}>
+                    <CopyRightsView />
                 </div>
             </div>
         );
