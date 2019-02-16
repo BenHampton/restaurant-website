@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b7dc2a4a-5f15-4627-9d1b-41464ee1c566" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Components/Footer/css/foot.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Location/LocationView.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Location/LocationView.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Location/css/locationView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Location/css/locationView.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Menu/css/menuComponent.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Menu/css/menuComponent.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/Menu/css/menuView.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Menu/css/menuView.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Footer/Footer.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Footer/Footer.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar/Sidebar.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sidebar/Sidebar.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/Sidebar/css/sidebard.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/Sidebar/css/sidebard.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Layout/Dashboad/Dashboard.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Layout/Dashboad/Dashboard.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,6 +44,10 @@
       <find>part</find>
       <find>img</find>
       <find>Add</find>
+      <find>color</find>
+      <find>background</find>
+      <find>nav-top</find>
+      <find>updateDimensions</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -61,7 +64,6 @@
         <option value="$PROJECT_DIR$/../../movie-api/src/layouts/Dashboard/Dashboard.jsx" />
         <option value="$PROJECT_DIR$/src/routes/index.jsx" />
         <option value="$PROJECT_DIR$/src/index.js" />
-        <option value="$PROJECT_DIR$/src/Components/Sidebar/Sidebar.jsx" />
         <option value="$PROJECT_DIR$/src/Components/Menu/css/menu.css" />
         <option value="$PROJECT_DIR$/src/Components/Sidebar/MenuSideBar.jsx" />
         <option value="$PROJECT_DIR$/src/Components/HomePage/App.css" />
@@ -71,7 +73,6 @@
         <option value="$PROJECT_DIR$/src/Components/Restaurant/RestaurantComponent.js" />
         <option value="$PROJECT_DIR$/src/index.css" />
         <option value="$PROJECT_DIR$/src/Layout/Dashboad/css/dashboard.css" />
-        <option value="$PROJECT_DIR$/src/Components/Sidebar/css/sidebard.css" />
         <option value="$PROJECT_DIR$/src/Components/Menu/MenuView.js" />
         <option value="$PROJECT_DIR$/src/Components/Cart/css/CartComponent.js" />
         <option value="$PROJECT_DIR$/src/Components/Menu/MenuComponent.js" />
@@ -92,9 +93,11 @@
         <option value="$PROJECT_DIR$/src/Components/Menu/css/menuComponent.css" />
         <option value="$PROJECT_DIR$/src/Components/Location/LocationView.js" />
         <option value="$PROJECT_DIR$/src/Components/Location/css/locationView.css" />
+        <option value="$PROJECT_DIR$/src/Components/Footer/css/foot.css" />
         <option value="$PROJECT_DIR$/src/Layout/Dashboad/Dashboard.jsx" />
         <option value="$PROJECT_DIR$/src/Components/Footer/Footer.js" />
-        <option value="$PROJECT_DIR$/src/Components/Footer/css/foot.css" />
+        <option value="$PROJECT_DIR$/src/Components/Sidebar/Sidebar.jsx" />
+        <option value="$PROJECT_DIR$/src/Components/Sidebar/css/sidebard.css" />
       </list>
     </option>
   </component>
@@ -105,8 +108,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-4" />
-    <option name="width" value="1630" />
+    <option name="x" value="-9" />
+    <option name="width" value="1848" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -142,13 +145,6 @@
               <item name="restaurant-ui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Cart" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restaurant-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
               <item name="Footer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -156,50 +152,15 @@
               <item name="restaurant-ui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Footer" type="462c0819:PsiDirectoryNode" />
+              <item name="Sidebar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="restaurant-ui" type="b2602c69:ProjectViewProjectNode" />
+              <item name="restaurant-ui" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Components" type="462c0819:PsiDirectoryNode" />
+              <item name="Sidebar" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restaurant-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Location" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restaurant-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Menu" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restaurant-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Menu" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restaurant-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Components" type="462c0819:PsiDirectoryNode" />
-              <item name="Restaurant" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restaurant-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Layout" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="restaurant-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="restaurant-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Layout" type="462c0819:PsiDirectoryNode" />
-              <item name="Dashboad" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restaurant-ui" type="b2602c69:ProjectViewProjectNode" />
@@ -216,7 +177,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550283969244" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550295069711" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
@@ -230,15 +191,15 @@
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\BenHampton\Documents\Git\restaurant-website\restaurant-ui\src\Components" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\BenHampton\Documents\Git\restaurant-website\restaurant-ui\src\Components\HomePage\css" />
       <recent name="$PROJECT_DIR$/src/Components/Cart" />
       <recent name="$PROJECT_DIR$/src/Components/Restaurant" />
       <recent name="$PROJECT_DIR$/src/Components/Menu" />
       <recent name="C:\Users\BenHampton\Documents\Git\restaurant-website\restaurant-ui\src\Layout\Dashboad\css" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\BenHampton\Documents\Git\restaurant-website\restaurant-ui\src\Components" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -268,7 +229,7 @@
       <workItem from="1548387100897" duration="8794000" />
       <workItem from="1549326154341" duration="5632000" />
       <workItem from="1549861402348" duration="22764000" />
-      <workItem from="1550264795648" duration="5262000" />
+      <workItem from="1550264795648" duration="15118000" />
     </task>
     <task id="LOCAL-00001" summary="Added React UI Browser Router">
       <created>1548302058166</created>
@@ -277,16 +238,23 @@
       <option name="project" value="LOCAL" />
       <updated>1548302058166</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="added Footer, Location &amp; Hours $ Menu.css">
+      <created>1550285322933</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1550285322933</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71749000" />
+    <option name="totallyTimeSpent" value="81605000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="0" width="1630" height="1047" extended-state="0" />
+    <frame x="-9" y="0" width="1848" height="1047" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16050956" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1409396" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -295,12 +263,12 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Graph Database Console" order="0" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32932165" />
       <window_info anchor="bottom" id="Run" order="3" weight="0.32954547" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.34127843" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3402626" />
       <window_info anchor="bottom" id="TODO" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" />
@@ -322,50 +290,14 @@
       <window_info anchor="right" id="Flutter Outline" order="11" />
       <window_info anchor="right" id="SciView" order="12" />
     </layout>
-    <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13432837" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Graph Database Console" order="0" />
-      <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" />
-      <window_info anchor="bottom" id="Run" order="3" weight="0.32954547" />
-      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.34127843" />
-      <window_info anchor="bottom" id="TODO" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" order="13" />
-      <window_info anchor="bottom" id="Flutter Performance" order="14" side_tool="true" />
-      <window_info anchor="right" id="Graph Database" order="0" weight="0.3292789" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="4" />
-      <window_info anchor="right" id="Database" order="5" />
-      <window_info anchor="right" id="Theme Preview" order="6" />
-      <window_info anchor="right" id="Maven" order="7" weight="0.3291874" />
-      <window_info anchor="right" id="Capture Analysis" order="8" />
-      <window_info anchor="right" id="Palette&#9;" order="9" />
-      <window_info anchor="right" id="Flutter Inspector" order="10" />
-      <window_info anchor="right" id="Flutter Outline" order="11" />
-      <window_info anchor="right" id="SciView" order="12" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added React UI Browser Router" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added React UI Browser Router" />
+    <MESSAGE value="added Footer, Location &amp; Hours $ Menu.css" />
+    <option name="LAST_COMMIT_MESSAGE" value="added Footer, Location &amp; Hours $ Menu.css" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/App.test.js">
@@ -411,30 +343,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Sidebar/css/sidebard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="750">
-          <caret line="50" column="23" selection-start-line="50" selection-start-column="23" selection-end-line="50" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Sidebar/Sidebar.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="166">
-          <caret line="19" column="20" selection-start-line="19" selection-start-column="20" selection-end-line="19" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#39#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Layout/Dashboad/css/dashboard.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
@@ -624,27 +532,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Footer/css/foot.css">
+    <entry file="file://$PROJECT_DIR$/src/Layout/Dashboad/css/dashboard.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="11" column="16" lean-forward="true" selection-start-line="11" selection-end-line="12" />
+        <state relative-caret-position="154">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Components/Footer/Footer.js">
+    <entry file="file://$PROJECT_DIR$/src/Components/Footer/css/foot.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="61" lean-forward="true" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#40#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="286">
+          <caret line="13" column="1" lean-forward="true" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Layout/Dashboad/Dashboard.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27">
-          <caret line="4" column="52" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
+        <state relative-caret-position="308">
+          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Sidebar/Sidebar.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="23" column="58" selection-start-line="23" selection-start-column="58" selection-end-line="23" selection-end-column="58" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Sidebar/css/sidebard.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="174">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Components/Footer/Footer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="36" selection-start-line="3" selection-start-column="36" selection-end-line="3" selection-end-column="36" />
         </state>
       </provider>
     </entry>

@@ -8,27 +8,20 @@ class Sidebar extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      width: window.innerWidth
+
     };
   }
   activeRoute(routeName) {
     return this.props.location.pathname.indexOf(routeName) > -1 ? "active" : "";
   }
-  updateDimensions() {
-    this.setState({ width: window.innerWidth });
-  }
+
   componentDidMount() {
-    this.updateDimensions();
-    window.addEventListener("resize", this.updateDimensions.bind(this));
   }
 
-  componentDidUpdate(){
-    window.scrollTo(0,0);
-  }
 
   render() {
     return (
-      <div id="sidebar" className="sidebar" >
+      <div id="sidebar" className={this.props.scrolled ? 'scrolled' : 'sidebar'} >
         <div className={''}>
           <ul className={'nav-top'}>
             {dashboardRoutes.map((prop, key) => {

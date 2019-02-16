@@ -8,8 +8,16 @@ export default class Footer extends Component{
         return(
             <div className={'footer-container p-grid p-nogutter'}>
                 <div className={'footer-image-container p-col'}>
-                    <span className={'footer-image'}><img src={FaceBookImage} alt={'facebookImage'}/></span>
-                    <span className={'footer-image'}><img src={Instagram} alt={'instagramImage'}/></span>
+                    <span className={'footer-image'}>
+                        <a href={'https://www.facebook.com/toscanastl/'}>
+                            <img src={FaceBookImage} alt={'facebookImage'}/>
+                        </a>
+                        </span>
+                    <span className={'footer-image'}>
+                        <a href={'https://www.instagram.com/trattoria_toscanastl/?hl=en'}>
+                            <img src={Instagram} alt={'instagramImage'}/>
+                        </a>
+                    </span>
                 </div>
             </div>
         )

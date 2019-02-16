@@ -16,8 +16,26 @@ import  './css/dashboard.css';
 class Dashboard extends Component{
     constructor(props){
         super(props);
-
+        this.state = {
+            scrolled: false
+        }
     };
+
+    componentDidMount() {
+      window.addEventListener('scroll', () => {
+          console.log("ion")
+          const isTop = window.scrollY < 100;
+          if (isTop !== true){
+              this.setState({ scrolled: true });
+          } else {
+              this.setState({ scrolled: false });
+          }
+      });
+    };
+
+    componentWillUnmount(){
+        window.removeEventListener('scroll');
+    }
 
     render(){
         return(
@@ -26,7 +44,7 @@ class Dashboard extends Component{
                     11686 Gravois Rd, St. Louis, MO 63126  (314) 849-1499
                 </div>
                 <div className={'p-col-12'} >
-                    <Sidebar {...this.props}/>
+                    <Sidebar {...this.props} scrolled={this.state.scrolled}/>
                 </div>
                 <div className={'p-grid p-col-12 p-nogutter p-align-stretch vertical-container box-container'}>
                     <div className={'p-col-12'}>
