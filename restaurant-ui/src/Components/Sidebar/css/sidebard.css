@@ -4,63 +4,10 @@
     height: 7vh;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    overflow: hidden;
-}
-
-li {
-    margin-left: 10%;
-    float: left;
-}
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-li a:hover{
-    color: #007bff;
-}
-
-
-.sidebar {
-    /*display: block;*/
-    width: 50%;
-    float: right;
-    /*z-index: 1;*/
-    /*height: 7vh;*/
-    /*font-weight: 200;*/
-    background: #000;
-    margin-top: 2%;
-    text-align: left;
-    transition: width 0.25s;
-}
-
-.scrolled {
-    width: 100%;
-    float: right;
-    position: fixed;
-    background: #000;
-    margin-top: -22px;
-    opacity: 0.8;
-    z-index: 2;
-}
-
 /* height of sidebar*/
 .sidebar-wrapper{
     position: relative;
     width: 100%;
-}
-
-.sidebar-fixed{
-    /*height: calc(100vh - 75px);*/
-    /*overflow: auto;*/
-    /*z-index: 4;*/
 }
 
 .sidebar-hide{
@@ -72,7 +19,117 @@ li a:hover{
     position: fixed;
 }
 
-
 .nav{
     position: fixed;
 }
+
+.sidebar-fixed{
+    /*height: calc(100vh - 75px);*/
+    /*overflow: auto;*/
+    /*z-index: 4;*/
+}
+
+
+.sidebar {
+    /*display: block;*/
+    width: 50%;
+    float: right;
+    /*z-index: 1;*/
+    /*height: 7vh;*/
+    /*font-weight: 200;*/
+    background: white;
+    text-align: left;
+    transition: width 0.9s;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.sidebar li {
+    margin-left: 10%;
+    float: left;
+}
+
+.sidebar li a {
+    color: black;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.sidebar li a:hover{
+    color: black;
+    font-size: 20px;
+    transition: 0.7s;
+}
+
+
+
+.scrolled {
+    width: 100%;
+    float: right;
+    position: fixed;
+    background: #000;
+    margin-top: -22px;
+    opacity: 0.8;
+    z-index: 2;
+}
+
+.scrolled li a {
+    color: white;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.scrolled li a:hover{
+    color: crimson;
+    transition: 0.7s;
+}
+
+.scrolled ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+}
+
+.scrolled li {
+    margin-left: 10%;
+    float: left;
+}
+
+
+
+
+
+
+
+
+
+
+/*ul {*/
+/*list-style-type: none;*/
+/*margin: 0;*/
+/*overflow: hidden;*/
+/*}*/
+
+/*li {*/
+/*margin-left: 10%;*/
+/*float: left;*/
+/*}*/
+
+/*li a {*/
+/*display: block;*/
+/*text-align: center;*/
+/*text-decoration: none;*/
+/*font-weight: bold;*/
+/*}*/
+
+/*li a:hover{*/
+/*color: #007bff;*/
+/*}*/

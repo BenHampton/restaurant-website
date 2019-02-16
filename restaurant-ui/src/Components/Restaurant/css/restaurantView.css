@@ -1,5 +1,5 @@
 .restaurant-container {
-    background: white;
+    background: oldlace;
 }
 
 .menu-selection-first {
@@ -17,6 +17,5 @@
     min-height: 80vh;
     background-position: center;
     background-repeat: no-repeat;
-    /* background-size: cover; */
     margin-top: -125px;
 }

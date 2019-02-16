@@ -16,13 +16,11 @@ const CartView = props => {
                 {props.item.name}
             </div>
             <div className={'p-col cart-item'}>
-                {props.item.description}
-            </div>
-            <div className={'p-col cart-item'}>
                 {props.item.price}
             </div>
             <div className={'p-col cart-item'}>
                 <Button label={'Remove From Cart'}
+                        className={'cart-btn'}
                         onClick={removeItemFromCart} />
             </div>
         </div>
